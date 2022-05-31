@@ -1,0 +1,92 @@
+.sideNav {
+    /*    position: absolute;*/
+    width: 290px;
+    height: 854px;
+    background: #FFFFFF;
+    border: 2px solid #F0F0F0;
+    border-width: 0 2px 2px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerChatSideNav {
+    width: 273px;
+    height: 43.94px;
+    margin-top: 39px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 0 22px 22px 0;
+    display: flex;
+
+}
+
+.iconChatSide {
+    width: 16px;
+    height: 10.69px;
+    margin: 17.09px 20px 0px 57px;
+    background-image: url(../icon/Group\ 15.png);
+
+}
+
+.chatSideNav {
+    margin: 13.02px 40.42px 0 0;
+    font-family: 'Poppins';
+    width: 99.03px;
+    height: 21.97px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.alertMessage {
+    width: 21px;
+    height: 17px;
+    margin-top: 13.83px;
+
+    background-image: url(../icon/Oval\ 4.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numOfMessages {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.428571px;
+
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.containerLogout {
+    display: flex;
+}
+
+.filter {
+    width: 17px;
+    height: 11.2px;
+    margin: 0 19px 44.36px 54px;
+    background-image: url(../icon/Group\ 11.1.png)
+}
+
+.logout {
+    width: 139.03px;
+    height: 21.97px;
+    margin-bottom: 36.3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #858585;
+}

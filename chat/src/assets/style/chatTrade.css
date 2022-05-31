@@ -1,0 +1,216 @@
+.chatTrade {
+    /* position: absolute; */
+    width: 1175px;
+    height: 815px;
+    margin: auto;
+    display: flex;
+}
+
+.contact {
+    background: #FFFFFF;
+    width: 301px;
+    border: 2px solid #F0F0F0;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newChat {
+    width: 153.91px;
+    height: 47.97px;
+    margin: 0 0 27.4px 70px;
+    border: none;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.me {
+    height: 100px;
+    margin-top: 9px;
+    display: flex;
+}
+
+.imgMe {
+    background: url(../icon/perfil.png) !important;
+    background-size: contain !important;
+}
+
+.imgContac {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    margin: 25.42px 14.84px 0 39.81px;
+    background: rgb(121, 68, 122);
+}
+
+.containerData {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameContact {
+    width: 94px;
+    height: 28px;
+    margin-top: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    /* or 200% */
+    color: #858585;
+}
+
+.state {
+    width: 36px;
+    height: 27px;
+    transform: translate(0px, -9px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    /* or 240% */
+    color: #858585;
+}
+
+.iconStateOn {
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    background: #8CEE5D;
+    border-radius: 50%;
+    transform: translate(30.19px, 26.58px);
+}
+
+.iconStateOff {
+    width: 11px;
+    height: 12px;
+    background: #DEDEDE;
+    border-radius: 50%;
+    transform: translate(30.19px, 26.58px);
+}
+
+.typing {
+    width: 48px;
+    height: 29px;
+    margin: 46px 0 0 49px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    /* or 240% */
+    color: #858585;
+}
+
+.chats {
+    background: #FFFFFF;
+    width: calc(100% - 301px);
+    border: 2px solid #F0F0F0;
+    border-width: 2px 2px 2px 0px;
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts {
+    width: 301px;
+    border: 2px solid #F0F0F0;
+    border-width: 2px 0 0 0;
+    padding-top: 13px;
+}
+
+.list {
+    height: 76px;
+    display: flex;
+}
+
+.contAlert {
+    position: absolute;
+    width: 24.12px;
+    height: 22.84px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-radius: 50%;
+    transform: translate(243px, 31px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contAlertNum {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.428571px;
+    color: #FFFFFF;
+}
+
+.list:hover {
+    background: rgba(225, 204, 218, 0.116);
+}
+
+.containerChat {
+    width: 100;
+    height: 54px;
+    margin: 0 43px 27px 43px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    border-radius: 100px;
+    display: flex;
+    align-items: center
+}
+
+.formChat {
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputChat {
+    width: 172px;
+    height: 25px;
+    margin-left: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    /* or 183% */
+    letter-spacing: 0.4375px;
+    color: #BFBFBF;
+    border: none;
+}
+
+.buttonChat {
+    width: 84px;
+    height: 35px;
+    margin-right: 12px;
+    padding: 0;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border: none;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    /* or 183% */
+    text-align: center;
+    letter-spacing: 0.375px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

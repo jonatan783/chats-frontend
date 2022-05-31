@@ -1,0 +1,107 @@
+.nav {
+    /* position: absolute; */
+    width: 1500px;
+    height: 83px;
+    background: #FFFFFF;
+    border: 2px solid #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    width: 420px;
+    height: 38px;
+    margin-left: 30px;
+    margin-top: 23px;
+    border: 1px solid;
+    border-image-source: linear-gradient(178deg, #FD749B -13.56%, #281AC8 158.3%);
+    border-image-slice: 1;
+    /* border-radius: 100px; */
+}
+
+.form {
+    margin-top: 14px;
+    margin-left: 34px;
+    height: 16px;
+    display: flex;
+}
+
+.bottonSummit {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: auto;
+    width: auto;
+    display: flex;
+
+}
+
+.circle {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 1px solid #858585;
+    border-radius: 50%;
+    transform: translate(-1px, -1px);
+}
+
+.mango {
+    content: "";
+    width: 1px;
+    height: 5px;
+    background: #858585;
+    transform: translate(-2px, 8px) rotate(315deg);
+}
+
+.inputSearch {
+    width: 97px;
+    height: 16px;
+    margin: 0 0 0 19px;
+    padding: 0;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    /* or 240% */
+    color: #858585;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.shutter {
+    display: flex;
+}
+
+.imgShutter {
+    margin-top: 23px;
+    width: 40.29px;
+    height: 40.29px;
+    border-radius: 50%;
+    background: url(../icon/perfil.png);
+    background-size: contain;
+}
+
+.name {
+    margin-top: 32px;
+    margin-left: 11px;
+    width: 91px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+    color: #858585;
+}
+
+.bell {
+    width: 22px;
+    height: 24.25px;
+    margin-left: 43px;
+    margin-right: 34.11px;
+    margin-top: 29px;
+    background-image: url(../icon/Group\ 262.png)
+}

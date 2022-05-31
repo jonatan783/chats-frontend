@@ -1,0 +1,17 @@
+.containerr {
+  width: 1504px;
+  height: 937px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: #FFF9FE;
+}
+
+.contentSideChat {
+  display: flex;
+}
+.containerLogin {
+  width: 100%;
+  height: 100%;
+  display: flex
+}
